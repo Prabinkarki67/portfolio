@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(148, 148, 244);
+
+}
+
+
+.left {
+    font-size: 2rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+.first>div {
+    width: 30%;
+}
+
+.leftsec {
+    font-size: 3rem;
+    left: -50px;
+}
+.container{
+    display: inline-block;
+    margin-top: 8rem;
+    margin-left: 8%;
+   align-self: center;
+}
+.text{
+    font-size: 3em;
+    letter-spacing: 10px;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 5s,
+        cursor .4s step-end infinite alternate;
+}
+@keyframes cursor{
+    50%{ border-color: transparent;}
+}
+@keyframes typing{
+    from{ width: 0}
+}
+
+
+.rightsec {
+    margin-top: 40px;
+}
+
+.prabin {
+    color: rgb(5, 55, 39);
+}
+
+
+.photo {
+    width: 400px;
+    /* Set width */
+    height: 400px;
+    /* Set height equal to width */
+   
+    /* Ensures a perfect circle */
+    overflow: hidden;
+    /* Prevents the image from exceeding the div boundary */
+    display: flex;
+    /* Centers the image */
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img {
+    width: 400px;
+    /* Stretch the image to cover the div */
+    height: 400px;
+    /* Match the height of the div */
+    object-fit: cover;
+    /* Ensure the image fills the div proportionally */
+    border-radius: 50%;
+}
+
+.proj {
+    width: 400px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    /* Center text horizontally */
+    align-items: center;
+    /* Center text vertically */
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 20%;
+    opacity: 0.4;
+    display: inline-block;
+
+}
+
+.proj li {
+    list-style-type: none;
+    /* Removes the bullet point */
+    color: white;
+    /* Set text color */
+    font-size: 50px;
+    /* Adjust font size */
+    text-align: center;
+    /* Center text */
+}
+
+.proj li a:hover {
+    font-size: 5rem;
+}
+
+.cert {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 30rem;
+    opacity: 0.4;
+    align-items: right;
+    text-align: right;
+    margin-left: 40%;
+    
+
+}
+
+.cert li a {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    font-size: 50px;
+
+}
+
+.cert ul {
+    list-style-type: none;
+    padding-left: 0;
+    /* Optional: to remove the left padding from the list */
+}
+.cert ul li a:hover {
+    font-size: 5rem;
+}
+.serv {
+    display: inline-block;
+    width: 400px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 30rem;
+    opacity: 0.4;
+    align-items: left;
+    text-align: left;
+    margin-left: 60%;
+   
+
+}
+
+.serv li a {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    font-size: 50px;
+
+}
+
+.serv ul {
+    list-style-type: none;
+    padding-left: 0;
+    /* Optional: to remove the left padding from the list */
+}
+.serv  ul li a:hover {
+    font-size: 5rem;
+}
