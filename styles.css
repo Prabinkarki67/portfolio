@@ -13,6 +13,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color:black;
+    margin: 0;
 }
 
 nav ul {
@@ -34,6 +35,28 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(148, 148, 244);
 
+}
+.theme-toggle-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: all 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.theme-icon {
+    width: 20px;
+    height: 20px;
 }
 
 
